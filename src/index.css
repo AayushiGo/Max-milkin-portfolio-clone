@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@font-face {
+    font-family: 'MM-fonts';
+    src: url('./assets/fonts/MM-fonts.98e08ce0fbf43c3ea261.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'aeonik-regular';
+    src: url('./assets/fonts/Aeonik-Regular.133c8d5a0dd65f35129e.ttf');
+  }
+
+  .bg-img{
+    background-image: url("./assets/noisybackground.png");
+   
+  }
+
+  .bg-mask{
+    mask-image:  url("https://max-milkin.com.ua/static/media/noisy.21451b8adeeb1d49fbc1.png") ;
+    
+  }
+
+ ::-webkit-scrollbar{
+  display: none;
+ }
+
+ .social{
+  font-family: 'aeonik-regular';
+  src: url('./assets/fonts/Aeonik-Regular.133c8d5a0dd65f35129e.ttf');
+ }
+ 
+ .bwimg{
+  filter: grayscale(1);
+  
+ }
